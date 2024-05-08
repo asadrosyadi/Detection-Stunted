@@ -1,0 +1,138 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="table table-hover">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table id="datatable" class="table">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Name</th>
+                                    <th>Gender</th>
+                                    <th>Birth</th>
+                                    <th>Parent's Name</th>
+                                    <th>Address</th>
+                                    <th>Date Measure</th>
+                                    <th>Age</th>
+                                    <th>Measure</th>
+                                    <th>Z-Score</th>
+                                    <th>Result</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                                                    <tr>
+                                        <td>1</td>
+                                        <td>Mohammad As'ad Rosyadi</td>
+                                        <td>Male</td>
+                                        <td>2023-05-16</td>
+                                        <td>name</td>
+                                        <td>name</td>
+                                        <td>2024-05-01 06:55:21</td>
+                                        <td>0 years, 11 months</td>
+                                        <td>Mass: 5 Kg <br /> <br /> Height: 68 cm <br /><br /> Head: 41.9 cm</td>
+                                        <td>
+                                            1. BB/U = -4.40 <b> (Severely Underweight) </b> <br/> <br/>2. PB/U and TB/U = -2.83 <b> (Stunted) </b> <br/> <br/>3. BB/PB and BB/TB = -4.29 <b> (Severely Wasted) </b><br/><br/>4. IMT/U = -4.68 <b> (Severely Wasted) </b> <br/><br/>5. Head/U =  -3.00 <b> (Severely Underweight) </b><br/><br/>                                        </td>
+                                        <td>
+                                            1. Weight = <b> Severely Underweight </b> or <b> Severely Wasted </b><br/><br/>2. Height = <b> Stunted </b><br/><br/>3. Nutrition = <b> Severely Wasted </b> or <b> Severely Wasted </b>                                        </td>
+
+                                    </tr>
+                                                                    <tr>
+                                        <td>2</td>
+                                        <td>name</td>
+                                        <td>Male</td>
+                                        <td>2022-02-03</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>2024-05-01 09:18:57</td>
+                                        <td>2 years, 2 months</td>
+                                        <td>Mass: 15 Kg <br /> <br /> Height: 90 cm <br /><br /> Head: 51 cm</td>
+                                        <td>
+                                            1. BB/U = 1.56 <b> (Weight Risk) </b> <br/> <br/>2. PB/U and TB/U = -0.38 <b> (Normal) </b> <br/> <br/>3. BB/PB and BB/TB = 1.91 <b> (Possible Risk of Overweight) </b><br/><br/>4. IMT/U = 1.87 <b> (Possible Risk of Overweight) </b> <br/><br/>5. Head/U =  1.79 <b> (Weight Risk) </b><br/><br/>                                        </td>
+                                        <td>
+                                            1. Weight = <b> Weight Risk </b> or <b> Possible Risk of Overweight </b><br/><br/>2. Height = <b> Normal </b><br/><br/>3. Nutrition = <b> Possible Risk of Overweight </b> or <b> Possible Risk of Overweight </b>                                        </td>
+
+                                    </tr>
+                                                                    <tr>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>Male</td>
+                                        <td>1998-05-16</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>2024-05-01 09:41:05</td>
+                                        <td>25 years, 11 months</td>
+                                        <td>Mass: 9.4 Kg <br /> <br /> Height: 10.00 cm <br /><br /> Head: 10.00 cm</td>
+                                        <td>
+                                            <b> Error: Max 5 th </b>                                        </td>
+                                        <td>
+                                            1. Weight = <b> Weight Risk </b> or <b> Possible Risk of Overweight </b><br/><br/>2. Height = <b> Normal </b><br/><br/>3. Nutrition = <b> Possible Risk of Overweight </b> or <b> Possible Risk of Overweight </b>                                        </td>
+
+                                    </tr>
+                                                                    <tr>
+                                        <td>4</td>
+                                        <td>2</td>
+                                        <td>Male</td>
+                                        <td>2023-05-16</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>2024-05-01 09:41:05</td>
+                                        <td>0 years, 11 months</td>
+                                        <td>Mass: 5.8 Kg <br /> <br /> Height: 68 cm <br /><br /> Head: 40 cm</td>
+                                        <td>
+                                            1. BB/U = -3.60 <b> (Severely Underweight) </b> <br/> <br/>2. PB/U and TB/U = -2.83 <b> (Stunted) </b> <br/> <br/>3. BB/PB and BB/TB = -3.14 <b> (Severely Wasted) </b><br/><br/>4. IMT/U = -3.35 <b> (Severely Wasted) </b> <br/><br/>5. Head/U =  -4.46 <b> (Severely Underweight) </b><br/><br/>                                        </td>
+                                        <td>
+                                            1. Weight = <b> Severely Underweight </b> or <b> Severely Wasted </b><br/><br/>2. Height = <b> Stunted </b><br/><br/>3. Nutrition = <b> Severely Wasted </b> or <b> Severely Wasted </b>                                        </td>
+
+                                    </tr>
+                                                            </tbody>
+                        </table>
+                        Note: <br />
+                        1. BB/U = Berat Badan / umur <br />
+                        2. PB/U and TB/U = Panjang Badan / Umur and Tinggi Badan / umur <br />
+                        3. BB/PB and BB/TB = Berat Badan / Panjang Badan and Berat Badan / Tinggi Badan <br />
+                        4. IMT/U = Index Masa Tubuh / Uur <br />
+                        5. Head/U = Head Circumference / Umur <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Include Bootstrap Datepicker library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#changeStatusBtn').click(function() {
+            $.ajax({
+                url: 'http://localhost:8081/stunting/data/changeStatus',
+                type: 'GET',
+                success: function(response) {
+                    // Berhasil mengubah status
+                    console.log(response);
+                },
+                error: function(xhr, status, error) {
+                    // Terjadi kesalahan saat mengubah status
+                    console.error(error);
+                }
+            });
+        });
+
+        $('.datepicker').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true
+        });
+
+        $('#datatable').DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'excel', 'pdf', 'csv'
+            ]
+        });
+    });
+</script>
